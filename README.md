@@ -6,6 +6,8 @@ A PPO controller for a **solar + battery system shared by 10 homes** on a street
 outage and load data from three Indian regions**, warm-started by **imitating a perfect-foresight optimiser (behaviour cloning + DAgger)**, kept safe by a
 **4-hour safety shield**, and tested **once** on an unseen city (**Pune 2018**).
 
+**🌐 Live website (interactive simulation + narrated video): https://lucky07-07.github.io/nirantar-reinforcement-learning/**
+
 ![Architecture](results/figures/fig_architecture.png)
 
 ## RL simulation video
@@ -13,7 +15,7 @@ A 50-second animation of the frozen GRU-PPO controller running one real validati
 the policy's action probabilities, forecasts, the safety shield and the 24-hour trace — built from a recorded rollout
 ([`results/rl_simulation_rollout.csv`](results/rl_simulation_rollout.csv)) by [`scripts/generate_rl_simulation.py`](scripts/generate_rl_simulation.py).
 
-▶ [**Report/yuva_yodha_rl_simulation.mp4**](Report/yuva_yodha_rl_simulation.mp4) (1920×1080, 30 fps, 50 s)
+▶ [**Report/yuva_yodha_rl_simulation.mp4**](Report/yuva_yodha_rl_simulation.mp4) (1920×1080, 30 fps, 50 s, narrated with Gnani Timbre text-to-speech)
 
 ## Key results (Pune 2018, 50 test weeks, run once)
 
