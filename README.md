@@ -236,7 +236,7 @@ src/         sim.py (simulator + shield) · planners.py (MILP) · controllers.py
 results/     FINAL_SPEC.md (locked plan) · FINAL_RESULTS.md · *.csv / *.json results · figures/
 models/      forecasters.pkl · rl/{MLP,GRU}_s{0..4}/best_model.zip
 data/        processed/split.json, episodes.json (raw and processed tables are not committed)
-Report/      Yuva_Yodha_Final_Project_Report (.docx/.pdf) · Yuva_Yodha_IEEE_Paper (.docx/.pdf) · yuva_yodha_rl_simulation.mp4
+Report/      yuva_yodha_rl_simulation.mp4 (narrated simulation video)
 scripts/     generate_rl_simulation.py (rollout of the frozen policy -> 50 s video)
 deck/        DSC25023,15_RL_Project.pptx · Literature_Survey_Nirantar.xlsx
 ```
@@ -257,7 +257,7 @@ deck/        DSC25023,15_RL_Project.pptx · Literature_Survey_Nirantar.xlsx
 8. R. Jain, D.-M. Chiu, W. R. Hawe, "A quantitative measure of fairness and discrimination for resource allocation in shared computer systems," DEC-TR-301, 1984.
 9. CEEW smart-meter data (doi:10.7910/DVN/GOCHJH); Prayas eMARC (doi:10.7910/DVN/YJ5SP1) and ESMI (doi:10.7910/DVN/CLLZZM); NASA POWER.
 
-The full literature survey (15 papers, 2024–2026) is in the report (Chapter 2) and `deck/Literature_Survey_Nirantar.xlsx`.
+The full literature survey (15 papers, 2024–2026) is in `deck/Literature_Survey_Nirantar.xlsx`.
 
 ## Authors
 Anil Kumar (BL.SC.P2DSC25023) and Urmith Sai (BL.SC.P2DSC25015) — M.Tech, Amrita School of Computing, Bengaluru. Guide: Dr. Bharath K.P.

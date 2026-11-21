@@ -27,3 +27,7 @@ _archive*/
 Report/Reinforcement learning_End_Sem_Report_Template*.docx
 deck/Nirantar_YuvaYodha.pptx
 deck/build_deck.js
+
+# project report and paper are kept locally, not published
+Report/Yuva_Yodha_Final_Project_Report.*
+Report/Yuva_Yodha_IEEE_Paper.*
