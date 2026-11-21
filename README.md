@@ -8,6 +8,13 @@ outage and load data from three Indian regions**, warm-started by **imitating a 
 
 ![Architecture](results/figures/fig_architecture.png)
 
+## RL simulation video
+A 50-second animation of the frozen GRU-PPO controller running one real validation day (Bareilly): live power flows, the 10 homes and their cuts,
+the policy's action probabilities, forecasts, the safety shield and the 24-hour trace — built from a recorded rollout
+([`results/rl_simulation_rollout.csv`](results/rl_simulation_rollout.csv)) by [`scripts/generate_rl_simulation.py`](scripts/generate_rl_simulation.py).
+
+▶ [**Report/yuva_yodha_rl_simulation.mp4**](Report/yuva_yodha_rl_simulation.mp4) (1920×1080, 30 fps, 50 s)
+
 ## Key results (Pune 2018, 50 test weeks, run once)
 
 | | Final controller (GRU) vs rule-based | vs chance-constrained MPC | vs our earlier PPO-BC |
@@ -227,7 +234,8 @@ src/         sim.py (simulator + shield) · planners.py (MILP) · controllers.py
 results/     FINAL_SPEC.md (locked plan) · FINAL_RESULTS.md · *.csv / *.json results · figures/
 models/      forecasters.pkl · rl/{MLP,GRU}_s{0..4}/best_model.zip
 data/        processed/split.json, episodes.json (raw and processed tables are not committed)
-Report/      Yuva_Yodha_Final_Project_Report (.docx/.pdf) · Yuva_Yodha_IEEE_Paper (.docx/.pdf)
+Report/      Yuva_Yodha_Final_Project_Report (.docx/.pdf) · Yuva_Yodha_IEEE_Paper (.docx/.pdf) · yuva_yodha_rl_simulation.mp4
+scripts/     generate_rl_simulation.py (rollout of the frozen policy -> 50 s video)
 deck/        DSC25023,15_RL_Project.pptx · Literature_Survey_Nirantar.xlsx
 ```
 
